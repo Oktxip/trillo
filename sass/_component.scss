@@ -489,12 +489,15 @@
     @media only screen and (max-width: $bp-medium){
         padding: 2.5rem 0;
     }
-
+    
     &-book-now{
         font-size: 1.5rem;
         font-weight: 300;
         text-transform: uppercase;
         margin-bottom: 2.5rem;
+        @media only screen and (max-width: $bp-medium){
+            padding: 2.5rem 2rem;
+        }
     }
 }
 /// //////////////////////////////
